@@ -107,7 +107,7 @@
 - Grid Lines (Rows and Column)
 - Grid Tracks (Rows and Column)
 - Grid Cells
-- Grid Area (由四条Grid Lines组成，包括任意数量Cells)
+- Grid Area (由四条Grid Lines组成，包括任意数量Cell)
 
 
  ####Grid Style
@@ -166,7 +166,7 @@
                       ". . ."
                       "name . name";
  ```
- 重复名字占满所有column, 空白用`. `
+ 重复名字占满所有column, 空白用` . `(加空格)
 
 - auto 根据内容自适应
 - fr 剩余空间根据比例分配
