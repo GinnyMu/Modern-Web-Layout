@@ -55,6 +55,7 @@
 | column-reverse | 列反   |
 
  ####Flex Line Wrapping
+
 	`flex-wrap:nowarp;`
 | code         | view      |
 | ------------ | --------- |
@@ -127,7 +128,7 @@
  .grid-item:nth-child{
  }
 ```
- ####Setting up a Grid
+####Setting up a Grid
 - Difining Columns & Rows
     `grid-template-rows: height height height;`
     `grid-template-columns: width width width;`
@@ -149,23 +150,23 @@
 
  ####Naming Grid Lines & Grid Areas
 - Grid Lines
- ```
+```
 .grid-container:{
     gird:[main-content-start] 1fr [main-content-end] 1em [sidebar-start] 25% [siderbar-end]/ 6em 1em 1fr;
     }
 .grid-item-content:{
 	grid-column: main-content-start/ main-content-end;
 }
- ```
+```
 使用repeat，名字后面空格加序号
 
 - Grid Areas
- ```
+```
  grid-area: name;
  grid-template-areas:"name name name"
                       ". . ."
                       "name . name";
- ```
+```
  重复名字占满所有column, 空白用` . `(加空格)
 
 - auto 根据内容自适应
